@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+
+#homepageHeader {
+    background-color: rgb(255, 219, 219);
+
+
+
+
+}
+
+
+#homepageName {
+    font-size: 80px;
+    font-family: 'DynaPuff', cursive;
+    color: rgb(244, 136, 136);
+    stroke-width: 5px;
+
+
+    margin-left: 40px;
+    padding: 50px;
+}
+
+
+#homepageProfilePic {
+    width: 180px;
+    height: 180px;
+
+
+    border-radius: 100%;
+    border: 10px solid rgb(244, 136, 136);
+
+
+
+
+    position: absolute;
+    right: 39%;
+    top: 3%;
+}
