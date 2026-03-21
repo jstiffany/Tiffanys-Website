@@ -1,3 +1,5 @@
+/** old css code in case i need it i fear **/
+
 #homepageHeader {
     background-color: rgb(255, 219, 219);
 }
@@ -22,9 +24,6 @@
 
     border-radius: 100%;
     border: 10px solid rgb(244, 136, 136);
-
-
-
 
     position: absolute;
     right: 39%;
