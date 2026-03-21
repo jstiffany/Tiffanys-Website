@@ -1,35 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
+/** OTHER STUFF **/
 
-#homepageHeader {
-    background-color: rgb(255, 219, 219);
+.favIcon {
+    border-radius: 100%;
 }
 
+/** HEADER & WHATS INSIDE **/
 
-#homepageName {
+.homepageHeader {
+    background-color: rgb(255, 219, 219);
+
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+    position: absolute;
+    top: 0;           
+    left: 0;          
+    width: 100%;      
+    margin: 0; 
+
+    display: inline-block;
+}
+
+.homepageName {
     font-size: 80px;
     font-family: 'DynaPuff', cursive;
     color: rgb(244, 136, 136);
-    stroke-width: 5px;
 
-
-    margin-left: 40px;
-    padding: 50px;
+    margin-left: 90px;
 }
 
+.buttonTrue {
+    background-color: rgb(244, 136, 136);
+    color: white;
+    border: none;
 
-#homepageProfilePic {
-    width: 180px;
-    height: 180px;
+    text-decoration: none;
+    font-size: 16px;
 
+    border-radius: 300px;
 
+    position: absolute;
+    padding: 10px 20px;
+
+}
+
+.buttonFalse {
+    background-color: rgb(244, 136, 136);
+    color: white;
+    border: none;
+    
+    text-decoration: none;
+    font-size: 16px;
+
+    border-radius: 300px;
+
+    position: absolute;
+    padding: 10px 20px;
+
+}
+
+#buttonmainPage {
+    width: 200px;
+    height: 90px;
+
+    border: 10px solid #feb8b8;
+    
+    position: absolute;
+    top: 55px;
+    left: 60%;
+}
+
+#buttonProject {
+    width: 200px;
+    height: 90px;
+
+    border: 10px solid #feb8b8;
+
+    position: absolute;
+    top: 55px;
+    left: 73%;
+}
+
+#buttonContact {
+    width: 200px;
+    height: 90px;
+
+    border: 10px solid #feb8b8;
+
+    position: absolute;
+    top: 55px;
+    left: 86%;
+}
+
+/** END OF HEADER & WHATS INSIDE **/
+
+/** ------------------------------------------------**/
+
+/** ABOUT ME  & WHATS INSIDE**/
+
+.aboutmeTitle {
+    font-size: 90px;
+    font-family: 'DynaPuff', cursive;
+    color: rgb(244, 136, 136);
+}
+
+#aboutMe {
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.homepageProfilePic {
     border-radius: 100%;
     border: 10px solid rgb(244, 136, 136);
 
-
-
-
-    position: absolute;
-    right: 39%;
-    top: 3%;
+    margin-bottom: 60px;
 }
+
+/** END OF ABOUT ME & WHATS INSIDE **/

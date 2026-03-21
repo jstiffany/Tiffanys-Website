@@ -10,21 +10,31 @@
     <title>Homepage - TJS</title>
 
     <link rel="stylesheet" href="index.css">
+    <link class="favIcon" rel="shortcut icon" href="mainpageImages/watafabss.png" type="image/x-icon">
 </head>
 
 <body>
 
+    <!-- HEADER -->
+
     <header>
-        <div id="homepageHeader">
-            <h1 id="homepageName">Tiffany Jordan-Smith</h1>
-            <img id="homepageProfilePic" src="mainpageImages/watafabss.png" alt="Izuku Midoriya">
+        <div class="homepageHeader">
+            <h1 class="homepageName">Tiffany Jordan-Smith</h1>
+
+            <button id="buttonmainPage" class="buttonTrue"><a href="/mainPage/index.html">Homepage</a></button>
+            <button id="buttonProject" class="buttonFalse"><a href="/projectTBD/projects.html">Projects/TBD</a></button>
+            <button id="buttonContact" class="buttonFalse"><a href="/contactInfo/contact.html">Contact Info</a></button>
         </div>
     </header>
 
-    <hr>
+    <!-- ABOUT ME -->
+
     <div id="aboutMe">
 
-        <h2>About Me</h2>
+        <h2 class="aboutmeTitle">About Me</h2>
+
+        <img class="homepageProfilePic" src="mainpageImages/izuku_pfp_website.gif" alt="Izuku Midoriya" width="310px" height="310px">
+
         <ul id="aboutmeList">
 
             <li>15 - Sophomore</li>
@@ -45,12 +55,17 @@
                     <li>Roblox</li>
                     <li>FNF</li>
                 </ol>
+        </ul>
 
-            <li>HTML, CSS</li>
-            <li>SQL</li>
-            <li>Python</li>
+        <h3>Other</h3>
+        <ul id="aboutmeOther">
+            <li>AvA(waiting on 13 sob)</li>
+            <li>AvM(on episode 14!)</li>
+            <li>Drawing - Beginner</li>
         </ul>
     </div>
+
+    <!-- MAIN PAGE SKILLS -->
 
     <div id="mainpageSkills">
 
@@ -65,9 +80,10 @@
         <ul id="codingList">
             <li><a href="mainpageImages/TJS_Coddy_HTML_Beginner.png" target="_blank">HTML - Beginner</a></li>
             <li><a href="mainpageImages/" target="_blank">CSS - Beginner</a></li>
-            <li><a href="mainpageImages/" target="_blank">SQL - Beginner</a></li>
+            <li><a href="mainpageImages/TJS_Coddy_SQL_Beginner.png" target="_blank">SQL - Beginner</a></li>
             <li><a href="mainpageImages/" target="_blank">Python - Beginner</a></li>
         </ul>
     </div>
+
 </body>
 </html>
