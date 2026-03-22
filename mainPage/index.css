@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap'); /** HEADERS **/
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap'); /** TEXT **/
 
 /** OTHER STUFF **/
 
-.favIcon {
-    border-radius: 100%;
+body {
+    background-color: rgb(254, 239, 239);
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /** HEADER & WHATS INSIDE **/
@@ -19,11 +23,8 @@
     top: 25px;           
     left: 0;
 
-    width: 97%;      
+    width: 96%;      
     margin-left: 25px;
-    margin-right: 25px;
-
-    display: inline-block;
 }
 
 .homepageName {
@@ -122,11 +123,55 @@
     font-size: 90px;
     font-family: 'DynaPuff', cursive;
     color: rgb(244, 136, 136);
+
+    padding-top: 75px;
+    padding-left: 210px;
 }
 
 #aboutMe {
     margin-top: 250px;
     margin-left: 50px;
+}
+
+#aboutmeLists {
+    background-color: rgb(255, 219, 219);
+
+    font-size: 30px;
+    font-family: "Jua", sans-serif;
+    color: #f48888;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+    border-radius: 90px;
+    border: 5px solid #f48888;
+    width: 45%;
+
+
+}
+
+#ageClass, #aboutmeAnime, #aboutmeGames, #aboutmeOther, hr {
+    list-style: none;
+
+    transform: translateX(-px);
+}
+
+#aboutmeList {
+    text-align: center;
+    list-style: none;
+
+    transform: translateX(-50px);
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0.0;
 }
 
 /** .homepageProfilePic {

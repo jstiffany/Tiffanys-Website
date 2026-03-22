@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap'); /** HEADERS **/
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap'); /** TEXT **/
 
 /** OTHER STUFF **/
 
-.favIcon {
-    border-radius: 100%;
+body {
+    background-color: rgb(254, 239, 239);
 }
 
 /** HEADER & WHATS INSIDE **/
@@ -21,9 +21,6 @@
 
     width: 96%;      
     margin-left: 25px;
-    margin-right: 25px;
-
-    display: inline-block;
 }
 
 .homepageName {
