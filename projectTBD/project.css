@@ -19,7 +19,7 @@
     top: 25px;           
     left: 0;
 
-    width: 97%;      
+    width: 96%;      
     margin-left: 25px;
     margin-right: 25px;
 
@@ -118,22 +118,6 @@
 
 /** ABOUT ME  & WHATS INSIDE**/
 
-.aboutmeTitle {
-    font-size: 90px;
-    font-family: 'DynaPuff', cursive;
-    color: rgb(244, 136, 136);
-}
 
-#aboutMe {
-    margin-top: 250px;
-    margin-left: 50px;
-}
-
-/** .homepageProfilePic {
-    border-radius: 100%;
-    border: 10px solid rgb(244, 136, 136);
-
-    margin-bottom: 60px;
-} **/
 
 /** END OF ABOUT ME & WHATS INSIDE **/
