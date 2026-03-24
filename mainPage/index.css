@@ -11,6 +11,20 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+#mainpageCharacters {
+    position: absolute;
+    left: 47%;
+    top: 60%;
+    width: 10%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0.0;
+}
+
 /** HEADER & WHATS INSIDE **/
 
 .homepageHeader {
@@ -165,19 +179,11 @@ body::-webkit-scrollbar {
     transform: translateX(-50px);
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background: #000;
-    opacity: 0.0;
-}
+/** END OF ABOUT ME**/
 
-#mainpageCharacters {
-    position: absolute;
-    left: 47%;
-    top: 60%;
-    width: 10%;
-}
+/** ------------------------------------------------**/
+
+/** SKILLS **/
 
 #mainpageSkills {
     position: relative;
@@ -215,21 +221,4 @@ hr {
     list-style: none;
 
     transform: translateX(-50px);
-}
-
-/** .homepageProfilePic {
-    border-radius: 100%;
-    border: 10px solid rgb(244, 136, 136);
-
-    margin-bottom: 60px;
-} **/
-
-/** END OF ABOUT ME**/
-
-/** ------------------------------------------------**/
-
-/** SKILLS **/
-
-#mainpageskillsList {
-
 }
