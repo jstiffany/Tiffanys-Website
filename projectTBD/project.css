@@ -113,8 +113,23 @@ body {
 
 /** ------------------------------------------------**/
 
-/** ABOUT ME  & WHATS INSIDE**/
+/** PROJECTS **/
 
+#projectsShare{
+    background-color: #feb8b8, 0.3;
 
+    border-radius: 3.5em;
 
-/** END OF ABOUT ME & WHATS INSIDE **/
+    width: 500%;
+    height: 300%;
+}
+
+.leftsideProjects {
+
+}
+
+.rightsideProjects {
+
+}
+
+/** END OF PROJECTS **/
