@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap'); /** HEADERS **/
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap'); /** TEXT **/
+
+
+h1 {
+    font-size: 100px;
+    font-family: 'DynaPuff', cursive;
+    color: rgb(244, 136, 136);
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+p {
+    font-family: "Jua", sans-serif;
+    text-align: center;
+    font-size: 45px;
+   
+    color: rgb(244, 136, 136);
+  
+}
