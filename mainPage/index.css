@@ -4,25 +4,31 @@
 /** OTHER STUFF **/
 
 body {
-    background-color: rgb(255, 227, 227);
+    background-color: rgb(254, 239, 239);
 }
 
 body::-webkit-scrollbar {
   display: none;
 }
 
-#mainpageCharacters {
+/** #mainpageCharacters {
     position: absolute;
     left: 47%;
     top: 60%;
     width: 10%;
-}
+} **/
 
 hr {
     border: 0;
     height: 1px;
     background: #000;
     opacity: 0.0;
+}
+
+/** MEDIA **/
+
+@media screen {
+    
 }
 
 /** HEADER & WHATS INSIDE **/
@@ -145,6 +151,8 @@ hr {
 #aboutMe {
     margin-top: 200px;
     margin-left: 20px;
+
+    padding-bottom: 50px;
 }
 
 #aboutmeLists {
@@ -187,7 +195,9 @@ hr {
 
 #mainpageSkills {
     position: relative;
-    left: 20%;
+    left: 51%;
+
+    margin-top: -70.5%;
 }
 
 #mainpageskillsTitle {
@@ -196,7 +206,7 @@ hr {
     color: rgb(244, 136, 136);
 
     padding-top: 100px;
-    padding-left: 230px;
+    padding-left: 270px;
 }
 
 #mainpageskillsLists {
@@ -205,11 +215,6 @@ hr {
     font-size: 35px;
     font-family: "Jua", sans-serif;
     color: #f48888;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
 
     border-radius: 90px;
     border: 5px solid #f48888;
@@ -220,7 +225,22 @@ hr {
     text-align: center;
     list-style: none;
 
-    transform: translateX(-50px);
+    transform: translateX(-60px);
+}
+
+.comptiaLinks, .codingLinks {
+    color: rgb(250, 90, 90);
+}
+
+#linkDisclaimer {
+    font-family: 'DynaPuff', cursive;
+    font-size: 40px;
+    color: rgb(244, 136, 136);
+    text-align: center;
+
+    position: absolute;
+    bottom: -17%;
+    padding-left: 7%;
 }
 
 /** END OF SKILLS **/
