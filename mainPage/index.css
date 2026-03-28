@@ -25,10 +25,15 @@ hr {
     opacity: 0.0;
 }
 
-/** MEDIA **/
+/** MEDIA - MOBILE **/
 
-@media screen {
-    
+@media screen and (max-width: 480px) {
+    .homepageHeader {
+        border-radius: 0 !important;
+        border: none !important;
+
+        padding-left: -100px !important;
+    }
 }
 
 /** HEADER & WHATS INSIDE **/
@@ -48,7 +53,7 @@ hr {
 }
 
 .homepageName {
-    font-size: 80px;
+    font-size: 4vw;
     font-family: 'DynaPuff', cursive;
     color: rgb(244, 136, 136);
 
